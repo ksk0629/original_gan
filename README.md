@@ -1,2 +1,2 @@
 # original_gan
-This repository is for building an original gan model.
+This repository is for building an original gan model and most of the codes in this repository are originally from [gan introduction](https://www.kaggle.com/code/jesucristo/gan-introduction/notebook) notebookon Kaggle. I added an only few codes.
