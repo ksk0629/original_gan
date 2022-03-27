@@ -1,4 +1,7 @@
-# Dat directory
+# model directory
+model
+
+# data directory
 data
 
 # Byte-compiled / optimized / DLL files
