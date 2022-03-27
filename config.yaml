@@ -1,0 +1,23 @@
+mlflow:
+  experiment_name: exp
+  run_name: first
+  run_id: Null
+dataset:
+  data_dir: ./data/
+  horizontal_flip_p: 0.5
+  random_apply_p: 0.2
+  image_size: 64
+  batch_size: 32
+  shuffle: True
+  channels: 3
+model:
+  nz: 128
+train:
+  epochs: 200
+  real_label: 0.9
+  fake_label: 0
+  output_dir: ./model/first_experiment
+  learning_rate_d: 0.0005
+  learning_rate_g: 0.001
+  beta1: 0.5
+  should_save_all: True
